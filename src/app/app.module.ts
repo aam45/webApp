@@ -1,30 +1,30 @@
-import { NgModule } from '@angular/core';
-import { BrowserModule } from '@angular/platform-browser';
-
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
-import { AboutComponent } from './about/about.component';
-import { PortfolioComponent } from './portfolio/portfolio.component';
-import { BlogsComponent } from './blogs/blogs.component';
-import { ContactComponent } from './contact/contact.component';
+import { HomeComponent } from './pages/home/home.component';
+import { AboutComponent } from './pages/about/about.component';
+import { PortfolioComponent } from './pages/portfolio/portfolio.component';
+import { BlogsComponent } from './pages/blogs/blogs.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { ThemeComponent } from './pages/theme/theme.component';
+import { NotFoundComponent } from './pages/empty/not-found.component';
+import { BrowserModule } from '@angular/platform-browser';
 import { NgOptimizedImage } from '@angular/common';
-import { ControlsComponent } from './controls/controls.component';
-import { ThemeComponent } from './theme/theme.component';
-import { EmptyComponent } from './empty/empty.component';
+import { AppRoutingModule } from './app-routing.module';
+import { NgModule } from '@angular/core';
+import { ControlsComponent } from './pages/controls/controls.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
+    HomeComponent,
     AboutComponent,
     PortfolioComponent,
     BlogsComponent,
     ContactComponent,
     ControlsComponent,
     ThemeComponent,
-    EmptyComponent,
+    NotFoundComponent,
   ],
-  imports: [BrowserModule, NgOptimizedImage],
+  imports: [BrowserModule, NgOptimizedImage, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
 })

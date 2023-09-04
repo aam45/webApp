@@ -1,14 +1,12 @@
 import { Component } from '@angular/core';
-import { NavigationService } from './core/navigation.service';
+import { NavigationService } from '../../core/navigation.service';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
+  selector: 'app-controls',
+  templateUrl: './controls.component.html',
+  styleUrls: ['./controls.component.css'],
 })
-export class AppComponent {
-  title: string = 'portfolio-am';
-
+export class ControlsComponent {
   constructor(private readonly navigationService: NavigationService) {}
 
   public navigateToHome() {
