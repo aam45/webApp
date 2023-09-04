@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { NavigationService } from './core/navigation.service';
 
 @Component({
   selector: 'app-root',
@@ -7,31 +6,11 @@ import { NavigationService } from './core/navigation.service';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title: string = 'portfolio-am';
+  mode: boolean = false;
 
-  constructor(private readonly navigationService: NavigationService) {}
+  constructor() {}
 
-  public navigateToHome() {
-    this.navigationService.home();
-  }
-
-  public navigateToAbout() {
-    this.navigationService.about();
-  }
-
-  public navigateToPortfolio() {
-    this.navigationService.portfolio();
-  }
-
-  public navigateToBlogs() {
-    this.navigationService.blogs();
-  }
-
-  public navigateToContact() {
-    this.navigationService.contact();
-  }
-
-  public navigateToEmpty() {
-    this.navigationService.notFound();
+  public isLightMode(mode: boolean): void {
+    this.mode = mode;
   }
 }
