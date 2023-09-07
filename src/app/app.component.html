@@ -1,2 +1,5 @@
-<app-controls></app-controls>
-<router-outlet></router-outlet>
+<div [class.light-mode]="mode" class="main-content">
+  <app-controls></app-controls>
+  <router-outlet></router-outlet>
+  <app-theme (isLightMode)="isLightMode($event)"></app-theme>
+</div>
