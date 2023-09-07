@@ -1,0 +1,11 @@
+{
+  "pages": {
+    "home": {
+      "developer": {
+        "greetings": "Hi, I'm",
+        "name": "Amin Ahmed Mohamed.",
+        "developer": "A Software Developer."
+      }
+    }
+  }
+}

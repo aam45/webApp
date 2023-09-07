@@ -1,0 +1,103 @@
+{
+  "pages": {
+    "versicherungsnehmer": {
+      "title": "Versicherungsnehmer"
+    },
+    "zahlungsdaten": {
+      "title": "Zahlungsdaten",
+      "leere-seite": {
+        "title": "Zu der gewählten Zahlungsart ist auf dieser Seite keine Eingabe erforderlich.",
+        "hinweis": "Bitte fahren Sie mit dem Button \"Weiter\" fort."
+      }
+    },
+    "vermittlerdaten": {
+      "title": "Angaben zum Berater"
+    },
+    "druck": {
+      "title": "Ihre Dokumente",
+      "antrag-unvollstaendig": [
+        "Ihr Antrag ist unvollständig. Es fehlen folgende Daten:",
+        "Sie können Ihren Antrag noch nicht bei der Dialog Versicherung einreichen."
+      ],
+      "antrag-vollstaendig": "Sie können jetzt Ihren Antrag herunterladen.",
+      "antrag-vollstaendig-heruntergeladen": "Sie können jetzt Ihren Antrag bei der Dialog Versicherung einreichen.",
+      "hinweise": {
+        "erfolg": {
+          "title": "Geschafft.",
+          "text": "<p>Der Antrag wurde erfolgreich übermittelt.</p><p>&nbsp;</p><p>Da der Vorgang abgeschlossen ist, sind keine Änderungen mehr möglich. Sie können einen neuen Vorgang starten oder die Tarifierung beenden.</p>"
+        },
+        "errors": {
+          "additionalInfo": "Fehler lautet:",
+          "antrag": {
+            "expiration": {
+              "title": "Der Antrag ist nicht mehr gültig.",
+              "text": "Bitte erzeugen Sie einen neuen Antrag."
+            },
+            "creation": {
+              "title": "Es konnte kein Antrag erstellt werden.",
+              "text": "Bitte prüfen Sie Ihre Eingaben, speichern den Vorgang ab und versuchen es zu einem späteren Zeitpunkt erneut."
+            },
+            "sending": {
+              "title": "Der Antrag konnte nicht übermittelt werden.",
+              "text": "Bitte speichern Sie den Vorgang und versuchen es erneut oder lassen Sie uns den unterschriebenen Antrag zukommen."
+            }
+          },
+          "angebot": {
+            "expiration": {
+              "title": "Das Angebot ist nicht mehr gültig.",
+              "text": "Bitte erzeugen Sie ein neues Angebot."
+            },
+            "creation": {
+              "title": "Es konnte kein Angebot erstellt werden.",
+              "text": "Bitte prüfen Sie Ihre Eingaben, speichern den Vorgang ab und versuchen es zu einem späteren Zeitpunkt erneut."
+            }
+          }
+        }
+      },
+      "produktunterlagen": {
+        "informationsblatt": {
+          "source": "IPID-MobilitätsschutzPLUS.2022.pdf",
+          "displayValue": "Informationsblatt zu Versicherungsprodukten",
+          "fileExtension": "PDF",
+          "fileSize": "121kB",
+          "key": "informationsblatt"
+        },
+        "beratungsdokumentation": {
+          "source": "Beratungsdokumentation-Blanko.pdf",
+          "displayValue": "Beratungsdokumentation",
+          "fileExtension": "PDF",
+          "fileSize": "30kB",
+          "key": "beratungsdokumentation"
+        },
+        "gesamte-produktunterlagen": {
+          "source": "Produktunterlagen-mit-IPID-MobilitätsschutzPLUS.pdf",
+          "displayValue": "Gesamte Produktunterlagen",
+          "fileExtension": "PDF",
+          "fileSize": "627kB",
+          "key": "gesamte"
+        }
+      },
+      "druckdateien": {
+        "antrag": {
+          "ctaText": "Antrag erzeugen",
+          "loadingText": "Antrag wird erzeugt",
+          "fileName": "Ihr Antrag"
+        },
+        "angebot": {
+          "ctaText": "Vorschlag erzeugen",
+          "loadingText": "Vorschlag wird erzeugt",
+          "fileName": "Ihr Vorschlag"
+        }
+      },
+      "erlaeuterung": "Sobald Sie den Antrag heruntergeladen haben, können Sie diesen online einreichen. Dadurch wird der Antrag elektronisch an die Dialog Versicherung AG übermittelt. Sie können den Antrag auch speichern und später online einreichen.",
+      "einreichen": "Online einreichen",
+      "neue-tarifierung": "Neue Tarifierung starten",
+      "debug": {
+        "request-tarifierung-link": "DEBUG-Tarifierung",
+        "ipsuite-tarifierung-link": "DEBUG-Tarifierung-IPsuite",
+        "request-druck-link": "DEBUG-Druck",
+        "ipsuite-druck-link": "DEBUG-Druck-IPsuite"
+      }
+    }
+  }
+}

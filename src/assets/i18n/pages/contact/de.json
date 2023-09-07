@@ -1,0 +1,94 @@
+{
+  "headline": "Bitte geben Sie den gewünschten Versicherungsumfang ein",
+  "title": "Versicherungsdetails",
+  "title-tarif": "MobilitätsschutzPLUS-Tarife",
+  "info-tarif": "<p>Der MobilitätsschutzPLUS ist ein personengebundener Schutzbrief, der nicht an eine Kfz-Versicherung gebunden ist.</p>&nbsp;<p>Es können Schutzbriefleistungen als Fahrer oder Insasse folgender Fahrzeuge in Anspruch genommen werden:</p>&nbsp;<ul><li>Pkw, Krafträder, Leichtkrafträder, Leichtkraftroller, Trikes, Quads.</li><li>Campingfahrzeuge bis 7.500 kg zulässige Gesamtmasse und einer maximalen Höhe von 3,20 Meter einschließlich Ladung oder Aufbauten.</li><li>Lieferwagen und Lastkraftwagen bis 7.500 kg zulässige Gesamtmasse, die von Ihnen und den mitversicherten Angehörigen für private Zwecke geliehen oder gemietet werden.</li></ul>&nbsp;<p>Dabei ist es egal, ob es sich um einen Mietwagen, ein Carsharingfahrzeug, das Auto eines Verwandten oder das eigene Fahrzeug handelt.</p>&nbsp;<p>Selbst Besitzer von mehreren Fahrzeugen sind mit einem MobilitätsschutzPLUS geschützt.</p>&nbsp;<p>Beim MobilitätsschutzPLUS Familie sind zusätzlich der Partner und Kinder bis 30 Jahre geschützt, wenn alle an einer Wohnanschrift gemeldet sind.</p>",
+  "title-angebot": "Vorschlag",
+  "hinweise": {
+    "errors": {
+      "additionalInfo": "Fehler lautet:",
+      "berechnen": {
+        "title": "Es ist ein technischer Fehler aufgetreten",
+        "text": "Bitte speichern Sie Ihren aktuellen Stand und versuchen Sie es später noch einmal."
+      },
+      "angebot": {
+        "expiration": {
+          "title": "Das Angebot ist nicht mehr gültig.",
+          "text": "Bitte erzeugen Sie ein neues Angebot."
+        },
+        "creation": {
+          "title": "Es konnte kein Angebot erstellt werden.",
+          "text": "Bitte prüfen Sie Ihre Eingaben, speichern den Vorgang ab und versuchen es zu einem späteren Zeitpunkt erneut."
+        }
+      }
+    }
+  },
+  "druckdateien": {
+    "angebot": {
+      "ctaText": "Vorschlag erzeugen",
+      "loadingText": "Vorschlag wird erzeugt",
+      "fileName": "Ihr Vorschlag"
+    }
+  },
+  "form": {
+    "vertragsbeginn": {
+      "placeholder": "Vertragsbeginn",
+      "errors": {
+        "min-date": "Der Versicherungsbeginn muss größer als das Tagesdatum sein. Bitte korrigieren Sie den Versicherungsbeginn.",
+        "max-date": "Der Vertragsbeginn darf nicht größer Tagesdatum + 1 Jahr sein."
+      }
+    },
+    "vertragsablauf": {
+      "placeholder": "Vertragsablauf"
+    },
+    "vorgangsart": {
+      "placeholder": "Vorgangsart",
+      "auswahl": {
+        "neuantrag": "Neuantrag",
+        "tarifumstellung": "Tarifumstellung"
+      },
+      "info": "<p><b>Neuantrag</b></p>&nbsp;<p>Es besteht bisher kein Vertrag für den MobilitätsschutzPLUS bei der Dialog Versicherung.</p>&nbsp;<p><b>Tarifumstellung</b></p>&nbsp;<p>Zu einem bei der Dialog bestehenden Vertrag soll die Umstellung auf den aktuellen Tarif oder die Umstellung von dem Single-Tarif auf den Familien-Tarif oder umgekehrt erfolgen.</p>"
+    },
+    "vsnr-vorvertrag": {
+      "placeholder": "Versicherungsscheinnummer Vorvertrag",
+      "errors": {
+        "vsnr-ungueltig": "Die Versicherungsscheinnummer ist ungültig. Die Nummer ist immer 10-stellig ohne Sonderzeichen einzugeben."
+      }
+    },
+    "zahlungsweise": {
+      "placeholder": "Zahlungsweise",
+      "auswahl": {
+        "monatlich": "monatlich",
+        "vierteljaehrlich": "vierteljährlich",
+        "halbjaehrlich": "halbjährlich",
+        "jaehrlich": "jährlich"
+      }
+    },
+    "zahlungsart": {
+      "placeholder": "Zahlungsart",
+      "auswahl": {
+        "lev": "Bankeinzug",
+        "klv": "Rechnung",
+        "vi": "Vermittlerinkasso"
+      },
+      "hinweise": {
+        "monatliche-zahlweise": "Bei monatlicher Zahlweise ist nur Bankeinzug möglich."
+      }
+    },
+    "tarifauswahl": {
+      "buttons": {
+        "single": "Single",
+        "familie": "Familie"
+      }
+    }
+  },
+  "debug": {
+    "title": "Debug",
+    "form": {
+      "tagesdatum": {
+        "placeholder": "Tagesdatum"
+      }
+    },
+    "confirm": "Bestätigen"
+  }
+}
