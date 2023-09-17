@@ -2,11 +2,11 @@ import { Component } from '@angular/core';
 import { NavigationService } from '../../core/navigation.service';
 
 @Component({
-  selector: 'app-controls',
-  templateUrl: './controls.component.html',
-  styleUrls: ['./controls.component.css'],
+  selector: 'app-navigation',
+  templateUrl: './navigation.component.html',
+  styleUrls: ['./navigation.component.css'],
 })
-export class ControlsComponent {
+export class NavigationComponent {
   selectedTab: string = 'home';
 
   constructor(private readonly navigationService: NavigationService) {}

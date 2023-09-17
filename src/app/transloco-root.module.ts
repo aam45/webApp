@@ -25,7 +25,7 @@ export class CustomHandler implements TranslocoMissingHandler {
   providers: [
     provideTransloco({
       config: {
-        availableLangs: ['de'],
+        availableLangs: ['de', 'en'],
         defaultLang: 'de',
         // Remove this option if your application doesn't support changing language in runtime.
         reRenderOnLangChange: true,
