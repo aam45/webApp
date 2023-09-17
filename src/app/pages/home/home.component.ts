@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { TRANSLOCO_ALIAS_HOME } from './home-scope.transloco';
+import { TranslocoService } from '@ngneat/transloco';
 
 @Component({
   selector: 'app-home',
@@ -9,5 +10,5 @@ import { TRANSLOCO_ALIAS_HOME } from './home-scope.transloco';
 export class HomeComponent {
   public readonly i18nPath: string = `${TRANSLOCO_ALIAS_HOME}.pages.home.developer`;
 
-  public constructor() {}
+  public constructor(private readonly translocoService: TranslocoService) {}
 }
