@@ -1,24 +1,17 @@
-<section class="container about active" id="about">
-  <div class="main-title">
-    <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
-  </div>
-  <div class="about-container">
-    <div class="left-about">
-      <h4>Information About me</h4>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet labore
-        nihil obcaecati consequatur. Debitis error doloremque, vero eos vel nemo
-        eius voluptatem dicta tenetur modi. <br />
-        <br />
-        La musica delectus dolore fugiat exercitationem a, ipsum quidem quo enim
-        natus accusamus labore dolores nam. Unde. Lorem ipsum dolor sit amet
-        consectetur, adipisicing elit. Harum non necessitatibus deleniti eum
-        soluta.
-      </p>
-      <app-resume-downloader></app-resume-downloader>
+<ng-container *transloco="let t; read: i18nPath">
+  <section class="container about active" id="about">
+    <app-main-title [i18nPath]="i18nPath"></app-main-title>
+    <div class="about-container">
+      <div class="left-about">
+        <h4>{{ t('title') }}</h4>
+        <p>
+          {{ t('infos') }}
+        </p>
+        <app-resume-downloader [i18nPath]="i18nPath"></app-resume-downloader>
+      </div>
+      <app-right-about [i18nPath]="i18nPath"></app-right-about>
     </div>
-    <app-right-about></app-right-about>
-  </div>
-  <app-about-stats></app-about-stats>
-  <app-timeline-item></app-timeline-item>
-</section>
+    <app-about-stats [i18nPath]="i18nPath"></app-about-stats>
+    <app-timeline [i18nPath]="i18nPath"></app-timeline>
+  </section>
+</ng-container>

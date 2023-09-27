@@ -1,8 +1,6 @@
 <section class="container contact active" id="contact">
   <div class="contact-container">
-    <div class="main-title">
-      <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
-    </div>
+    <app-main-title [i18nPath]="i18nPath"></app-main-title>
     <div class="contact-content-con">
       <div class="left-contact">
         <h4>Contact me here</h4>
@@ -89,13 +87,8 @@
               placeholder="Message Here..."
               rows="8"></textarea>
           </div>
-          <div class="submit-btn">
-            <a class="main-btn" href="#">
-              <span class="btn-text">Download CV</span>
-              <span class="btn-icon"><i class="fas fa-download"></i></span>
-            </a>
-          </div>
         </form>
+        <app-resume-downloader [i18nPath]="i18nPath"></app-resume-downloader>
       </div>
     </div>
   </div>

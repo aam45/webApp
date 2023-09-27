@@ -1,6 +1,8 @@
 <section class="container active" id="blogs">
   <div class="blogs-content">
     <app-main-title [i18nPath]="i18nPath"></app-main-title>
-    <app-blog-items></app-blog-items>
+    <ng-container *ngFor="let blog of blogs">
+      <app-blog-items [blog]="blog"></app-blog-items>
+    </ng-container>
   </div>
 </section>

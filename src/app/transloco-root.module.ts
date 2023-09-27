@@ -1,24 +1,6 @@
-import {
-  HashMap,
-  provideTransloco,
-  TRANSLOCO_LOADER,
-  TRANSLOCO_MISSING_HANDLER,
-  TranslocoMissingHandler,
-  TranslocoMissingHandlerData,
-  TranslocoModule,
-} from '@ngneat/transloco';
+import { provideTransloco, TranslocoModule } from '@ngneat/transloco';
 import { isDevMode, NgModule } from '@angular/core';
 import { TranslocoHttpLoader } from './transloco-loader';
-
-export class CustomHandler implements TranslocoMissingHandler {
-  public handle(
-    key: string,
-    _data: TranslocoMissingHandlerData,
-    params?: HashMap
-  ): string {
-    return params?.['fallback'] || key;
-  }
-}
 
 @NgModule({
   exports: [TranslocoModule],
@@ -31,12 +13,8 @@ export class CustomHandler implements TranslocoMissingHandler {
         reRenderOnLangChange: true,
         prodMode: !isDevMode(),
       },
+      loader: TranslocoHttpLoader,
     }),
-    { provide: TRANSLOCO_LOADER, useClass: TranslocoHttpLoader },
-    {
-      provide: TRANSLOCO_MISSING_HANDLER,
-      useClass: CustomHandler,
-    },
   ],
 })
 export class TranslocoRootModule {}

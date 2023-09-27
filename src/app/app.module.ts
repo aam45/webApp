@@ -7,7 +7,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { NgModule } from '@angular/core';
 import { NavigationComponent } from './pages/navigation/navigation.component';
 import { HttpClientModule } from '@angular/common/http';
-import { TranslocoRootModule } from './transloco-root.module';
 import { HomeModule } from './pages/home/home.module';
 import { AboutModule } from './pages/about/about.module';
 import { BlogsModule } from './pages/blogs/blogs.module';
@@ -26,7 +25,6 @@ import { PortfolioModule } from './pages/portfolio/portfolio.module';
     NgOptimizedImage,
     AppRoutingModule,
     HttpClientModule,
-    TranslocoRootModule,
     HomeModule,
     AboutModule,
     PortfolioModule,

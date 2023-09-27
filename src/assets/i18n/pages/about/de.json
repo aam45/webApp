@@ -1,102 +1,105 @@
 {
-  "pages": {
-    "versicherungsnehmer": {
-      "title": "Versicherungsnehmer"
+  "about": {
+    "title": "Information About me",
+    "infos": "Hello, I'm Amin Mohamed an adept software developer boasting 3 years of hands-on experience. My coding arsenal features Java, Spring Boot, TypeScript, JavaScript, HTML, CSS, and Git CI/CD,and I find my stride in unraveling intricate problems. I'm driven by a fervor for staying abreast of industry trends and thrive in the camaraderie of diverse teams. Beyond my professional pursuits, I'm a devoted contributor to open-source initiatives, constantly seeking fresh challenges. Let's connect and embark on a journey to enhance your projects together.",
+    "cv": "Download CV",
+    "main-title": {
+      "title": "About",
+      "subtitle": "me",
+      "backGroundText": "my stats"
     },
-    "zahlungsdaten": {
-      "title": "Zahlungsdaten",
-      "leere-seite": {
-        "title": "Zu der gewählten Zahlungsart ist auf dieser Seite keine Eingabe erforderlich.",
-        "hinweis": "Bitte fahren Sie mit dem Button \"Weiter\" fort."
+    "projects": {
+      "number-of-Projects": "30+",
+      "text": "Projects",
+      "subtext": "Completed"
+    },
+    "experience": {
+      "years": "3+",
+      "text": "Years of",
+      "subtext": "experience"
+    },
+    "clients": {
+      "number-of-clients": "13+",
+      "text": "Happy",
+      "subtext": "Clients"
+    },
+    "customer": {
+      "number-of-reviews": "25+",
+      "text": "Customer",
+      "subtext": "reviews"
+    },
+    "skills": {
+      "title": "My Skills",
+      "html": {
+        "language": "HTML5",
+        "percentage": "80%"
+      },
+      "javascript": {
+        "language": "JAVASCRIPT",
+        "percentage": "75%"
+      },
+      "typescript": {
+        "language": "TYPESCRIPT",
+        "percentage": "70%"
+      },
+      "css": {
+        "language": "CSS3",
+        "percentage": "85%"
+      },
+      "angular": {
+        "language": "ANGULAR",
+        "percentage": "75%"
+      },
+      "java": {
+        "language": "JAVA",
+        "percentage": "85%"
+      },
+      "nodejs": {
+        "language": "NODEJS",
+        "percentage": "80%"
+      },
+      "ci-dc": {
+        "language": "CI/CD",
+        "percentage": "80%"
+      },
+      "git": {
+        "language": "GIT",
+        "percentage": "80%"
       }
     },
-    "vermittlerdaten": {
-      "title": "Angaben zum Berater"
-    },
-    "druck": {
-      "title": "Ihre Dokumente",
-      "antrag-unvollstaendig": [
-        "Ihr Antrag ist unvollständig. Es fehlen folgende Daten:",
-        "Sie können Ihren Antrag noch nicht bei der Dialog Versicherung einreichen."
-      ],
-      "antrag-vollstaendig": "Sie können jetzt Ihren Antrag herunterladen.",
-      "antrag-vollstaendig-heruntergeladen": "Sie können jetzt Ihren Antrag bei der Dialog Versicherung einreichen.",
-      "hinweise": {
-        "erfolg": {
-          "title": "Geschafft.",
-          "text": "<p>Der Antrag wurde erfolgreich übermittelt.</p><p>&nbsp;</p><p>Da der Vorgang abgeschlossen ist, sind keine Änderungen mehr möglich. Sie können einen neuen Vorgang starten oder die Tarifierung beenden.</p>"
+    "time-line": {
+      "title": "MY TIMELINE",
+      "occupation": {
+        "ausbildung-background": {
+          "years": "2010 - PRESENT",
+          "headline": "WEB DEVELOPER ",
+          "title": "VIRCROSOFT",
+          "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit."
         },
-        "errors": {
-          "additionalInfo": "Fehler lautet:",
-          "antrag": {
-            "expiration": {
-              "title": "Der Antrag ist nicht mehr gültig.",
-              "text": "Bitte erzeugen Sie einen neuen Antrag."
-            },
-            "creation": {
-              "title": "Es konnte kein Antrag erstellt werden.",
-              "text": "Bitte prüfen Sie Ihre Eingaben, speichern den Vorgang ab und versuchen es zu einem späteren Zeitpunkt erneut."
-            },
-            "sending": {
-              "title": "Der Antrag konnte nicht übermittelt werden.",
-              "text": "Bitte speichern Sie den Vorgang und versuchen es erneut oder lassen Sie uns den unterschriebenen Antrag zukommen."
-            }
-          },
-          "angebot": {
-            "expiration": {
-              "title": "Das Angebot ist nicht mehr gültig.",
-              "text": "Bitte erzeugen Sie ein neues Angebot."
-            },
-            "creation": {
-              "title": "Es konnte kein Angebot erstellt werden.",
-              "text": "Bitte prüfen Sie Ihre Eingaben, speichern den Vorgang ab und versuchen es zu einem späteren Zeitpunkt erneut."
-            }
-          }
+        "java-background": {
+          "years": "2010 - PRESENT",
+          "headline": "WEB DEVELOPER ",
+          "title": "VIRCROSOFT",
+          "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit."
+        },
+        "angular-background": {
+          "years": "2010 - PRESENT",
+          "headline": "WEB DEVELOPER ",
+          "title": "VIRCROSOFT",
+          "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit."
+        },
+        "praktikum-1-background": {
+          "years": "2010 - PRESENT",
+          "headline": "WEB DEVELOPER ",
+          "title": "VIRCROSOFT",
+          "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit."
+        },
+        "praktikum-2-background": {
+          "years": "2010 - PRESENT",
+          "headline": "WEB DEVELOPER ",
+          "title": "VIRCROSOFT",
+          "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit."
         }
-      },
-      "produktunterlagen": {
-        "informationsblatt": {
-          "source": "IPID-MobilitätsschutzPLUS.2022.pdf",
-          "displayValue": "Informationsblatt zu Versicherungsprodukten",
-          "fileExtension": "PDF",
-          "fileSize": "121kB",
-          "key": "informationsblatt"
-        },
-        "beratungsdokumentation": {
-          "source": "Beratungsdokumentation-Blanko.pdf",
-          "displayValue": "Beratungsdokumentation",
-          "fileExtension": "PDF",
-          "fileSize": "30kB",
-          "key": "beratungsdokumentation"
-        },
-        "gesamte-produktunterlagen": {
-          "source": "Produktunterlagen-mit-IPID-MobilitätsschutzPLUS.pdf",
-          "displayValue": "Gesamte Produktunterlagen",
-          "fileExtension": "PDF",
-          "fileSize": "627kB",
-          "key": "gesamte"
-        }
-      },
-      "druckdateien": {
-        "antrag": {
-          "ctaText": "Antrag erzeugen",
-          "loadingText": "Antrag wird erzeugt",
-          "fileName": "Ihr Antrag"
-        },
-        "angebot": {
-          "ctaText": "Vorschlag erzeugen",
-          "loadingText": "Vorschlag wird erzeugt",
-          "fileName": "Ihr Vorschlag"
-        }
-      },
-      "erlaeuterung": "Sobald Sie den Antrag heruntergeladen haben, können Sie diesen online einreichen. Dadurch wird der Antrag elektronisch an die Dialog Versicherung AG übermittelt. Sie können den Antrag auch speichern und später online einreichen.",
-      "einreichen": "Online einreichen",
-      "neue-tarifierung": "Neue Tarifierung starten",
-      "debug": {
-        "request-tarifierung-link": "DEBUG-Tarifierung",
-        "ipsuite-tarifierung-link": "DEBUG-Tarifierung-IPsuite",
-        "request-druck-link": "DEBUG-Druck",
-        "ipsuite-druck-link": "DEBUG-Druck-IPsuite"
       }
     }
   }

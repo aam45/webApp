@@ -1,0 +1,8 @@
+<ng-container *transloco="let t; read: i18nPath">
+  <h4 class="stat-title">{{ t('time-line.title') }}</h4>
+  <div class="timeline">
+    <ng-container *ngFor="let timeLine of timeLines">
+      <app-timeline-item [timeLine]="timeLine"></app-timeline-item>
+    </ng-container>
+  </div>
+</ng-container>

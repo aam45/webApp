@@ -1,0 +1,10 @@
+<ng-container *transloco="let t; read: i18nPath">
+  <div class="about-stats">
+    <h4 class="stat-title">{{ t('skills.title') }}</h4>
+    <div class="progress-bars">
+      <ng-container *ngFor="let stat of stats">
+        <app-progress-bar [stat]="stat"></app-progress-bar>
+      </ng-container>
+    </div>
+  </div>
+</ng-container>
