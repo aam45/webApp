@@ -1,0 +1,43 @@
+{
+  "blogs": {
+    "main-title": {
+      "title": "My",
+      "subtitle": "Blogs",
+      "backGroundText": "My Blogs"
+    },
+    "articles": {
+      "webContent": {
+        "image": {
+          "src": "/assets/images/port6.jpg",
+          "alt": "port6"
+        },
+        "title": "How to Create Your Own Website",
+        "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus natus voluptas, eos obcaecati recusandae amet?"
+      },
+      "design": {
+        "image": {
+          "src": "/assets/images/blog1.jpg",
+          "alt": "blog1"
+        },
+        "title": "How to Become an Expert in Web Design",
+        "content": "  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus natus voluptas, eos obcaecati recusandae amet?"
+      },
+      "web-designer": {
+        "image": {
+          "src": "/assets/images/blog2.jpg",
+          "alt": "blog2"
+        },
+        "title": "How to Become a Web Developer",
+        "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus natus voluptas, eos obcaecati recusandae amet?"
+      },
+      "web-developer": {
+        "image": {
+          "src": "/assets/images/blog3.jpg",
+          "alt": "blog3"
+        },
+        "title": "How to Become a Web Developer",
+        "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus natus voluptas, eos obcaecati recusandae amet?"
+      }
+    }
+  }
+}

@@ -1,0 +1,106 @@
+{
+  "about": {
+    "title": "Information About me",
+    "infos": "Hello, I'm Amin Mohamed an adept software developer boasting 3 years of hands-on experience. My coding arsenal features Java, Spring Boot, TypeScript, JavaScript, HTML, CSS, and Git CI/CD,and I find my stride in unraveling intricate problems. I'm driven by a fervor for staying abreast of industry trends and thrive in the camaraderie of diverse teams. Beyond my professional pursuits, I'm a devoted contributor to open-source initiatives, constantly seeking fresh challenges. Let's connect and embark on a journey to enhance your projects together.",
+    "cv": "Download CV",
+    "main-title": {
+      "title": "About",
+      "subtitle": "me",
+      "backGroundText": "my stats"
+    },
+    "projects": {
+      "number-of-Projects": "30+",
+      "text": "Projects",
+      "subtext": "Completed"
+    },
+    "experience": {
+      "years": "3+",
+      "text": "Years of",
+      "subtext": "experience"
+    },
+    "clients": {
+      "number-of-clients": "13+",
+      "text": "Happy",
+      "subtext": "Clients"
+    },
+    "customer": {
+      "number-of-reviews": "25+",
+      "text": "Customer",
+      "subtext": "reviews"
+    },
+    "skills": {
+      "title": "My Skills",
+      "html": {
+        "language": "HTML5",
+        "percentage": "80%"
+      },
+      "javascript": {
+        "language": "JAVASCRIPT",
+        "percentage": "75%"
+      },
+      "typescript": {
+        "language": "TYPESCRIPT",
+        "percentage": "70%"
+      },
+      "css": {
+        "language": "CSS3",
+        "percentage": "85%"
+      },
+      "angular": {
+        "language": "ANGULAR",
+        "percentage": "75%"
+      },
+      "java": {
+        "language": "JAVA",
+        "percentage": "85%"
+      },
+      "nodejs": {
+        "language": "NODEJS",
+        "percentage": "80%"
+      },
+      "ci-dc": {
+        "language": "CI/CD",
+        "percentage": "80%"
+      },
+      "git": {
+        "language": "GIT",
+        "percentage": "80%"
+      }
+    },
+    "time-line": {
+      "title": "MY TIMELINE",
+      "occupation": {
+        "ausbildung-background": {
+          "years": "2010 - PRESENT",
+          "headline": "WEB DEVELOPER ",
+          "title": "VIRCROSOFT",
+          "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit."
+        },
+        "java-background": {
+          "years": "2010 - PRESENT",
+          "headline": "WEB DEVELOPER ",
+          "title": "VIRCROSOFT",
+          "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit."
+        },
+        "angular-background": {
+          "years": "2010 - PRESENT",
+          "headline": "WEB DEVELOPER ",
+          "title": "VIRCROSOFT",
+          "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit."
+        },
+        "praktikum-1-background": {
+          "years": "2010 - PRESENT",
+          "headline": "WEB DEVELOPER ",
+          "title": "VIRCROSOFT",
+          "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit."
+        },
+        "praktikum-2-background": {
+          "years": "2010 - PRESENT",
+          "headline": "WEB DEVELOPER ",
+          "title": "VIRCROSOFT",
+          "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe quasi vero fugit."
+        }
+      }
+    }
+  }
+}
