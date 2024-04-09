@@ -1,19 +1,25 @@
-<div class="portfolio-item">
-  <div class="image">
-    <img alt="" height="466" ngSrc="/assets/images/port1.jpg" width="700" />
-  </div>
-  <div class="hover-items">
-    <h3>Project Source</h3>
-    <div class="icons">
-      <a class="icon" href="#">
-        <i class="fab fa-github"></i>
-      </a>
-      <a class="icon" href="#">
-        <i class="fab fa-behance"></i>
-      </a>
-      <a class="icon" href="#">
-        <i class="fab fa-youtube"></i>
-      </a>
+<div class="portfolios">
+  <div *ngFor="let portfolio of portfolios" class="portfolio-item">
+    <div class="image">
+      <img
+        [attr.height]="portfolio.image.height"
+        [attr.src]="portfolio.image.url"
+        [attr.width]="portfolio.image.width"
+        alt="" />
+    </div>
+    <div class="hover-items">
+      <h3>{{ portfolio.project_title }}</h3>
+      <div class="icons">
+        <a class="icon" href="#">
+          <i class="fab fa-github"></i>
+        </a>
+        <a class="icon" href="#">
+          <i class="fab fa-behance"></i>
+        </a>
+        <a class="icon" href="#">
+          <i class="fab fa-youtube"></i>
+        </a>
+      </div>
     </div>
   </div>
 </div>

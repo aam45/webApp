@@ -1,10 +1,7 @@
-<section class="container active" id="portfolio">
-  <app-main-title [i18nPath]="i18nPath"></app-main-title>
-
-  <p class="port-text">
-    Here is some of my work that I've done in various programming languages.
-  </p>
-  <div class="portfolios">
-    <app-portfolio-item></app-portfolio-item>
-  </div>
-</section>
+<ng-container *transloco="let t; read: i18nPath">
+  <section class="blog-container active" id="portfolio">
+    <app-main-title [i18nPath]="i18nPath"></app-main-title>
+    <app-title [title]="t('title')"></app-title>
+    <app-portfolio-item [i18nPath]="i18nPath"></app-portfolio-item>
+  </section>
+</ng-container>

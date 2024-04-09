@@ -20,48 +20,10 @@ export class BlogsComponent implements OnInit {
   constructor(private readonly transloco: TranslationsService) {}
 
   public ngOnInit(): void {
-    this.blogs = this.buildUpBlogs();
-  }
-
-  private buildUpBlogs(): Array<Blog> {
-    // const translated = (key: string) =>this.transloco.translateWithKeyAndParams(`${this.i18nPath}.${key}`);
-    const trans = (key: string) =>
-      this.transloco.translateWithKey(this.i18nPath, key);
-    const webContent: string = 'articles.webContent';
-    console.log(trans(`${webContent}.image.src`));
-    return [
-      {
-        image: {
-          src: trans(`${webContent}.image.src`),
-          alt: trans(`${webContent}.image.alt`),
-        },
-        title: trans(`${webContent}.title`),
-        content: trans(`${webContent}..content`),
-      },
-      {
-        image: {
-          src: trans('articles.Design.image.src'),
-          alt: trans('projects.subtext'),
-        },
-        title: trans('projects.number-of-Projects'),
-        content: trans('projects.text'),
-      },
-      {
-        image: {
-          src: trans('projects.subtext'),
-          alt: trans('projects.subtext'),
-        },
-        title: trans('projects.number-of-Projects'),
-        content: trans('projects.text'),
-      },
-      {
-        image: {
-          src: trans('projects.subtext'),
-          alt: trans('projects.subtext'),
-        },
-        title: trans('projects.number-of-Projects'),
-        content: trans('projects.text'),
-      },
-    ];
+    setTimeout(() => {
+      console.log(
+        this.transloco.translateWithKey(this.i18nPath, 'article_1.title')
+      );
+    }, 1000);
   }
 }

@@ -5,39 +5,71 @@
       "subtitle": "Blogs",
       "backGroundText": "My Blogs"
     },
-    "articles": {
-      "webContent": {
-        "image": {
-          "src": "/assets/images/port6.jpg",
-          "alt": "port6"
-        },
-        "title": "How to Create Your Own Website",
-        "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus natus voluptas, eos obcaecati recusandae amet?"
+    "article_1": {
+      "id": "1",
+      "image": {
+        "src": "/assets/images/port6.jpg",
+        "alt": "port6",
+        "width": 600,
+        "height": 400
       },
-      "design": {
-        "image": {
-          "src": "/assets/images/blog1.jpg",
-          "alt": "blog1"
-        },
-        "title": "How to Become an Expert in Web Design",
-        "content": "  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus natus voluptas, eos obcaecati recusandae amet?"
+      "title": "How to Create Your Own Website",
+      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus natus voluptas, eos obcaecati recusandae amet?"
+    },
+    "article_2": {
+      "id": "2",
+      "image": {
+        "src": "/assets/images/blog1.jpg",
+        "alt": "blog1",
+        "width": 600,
+        "height": 400
       },
-      "web-designer": {
-        "image": {
-          "src": "/assets/images/blog2.jpg",
-          "alt": "blog2"
-        },
-        "title": "How to Become a Web Developer",
-        "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus natus voluptas, eos obcaecati recusandae amet?"
+      "title": "How to Become an Expert in Web Design",
+      "content": "  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus natus voluptas, eos obcaecati recusandae amet?"
+    },
+    "article_3": {
+      "id": "3",
+      "image": {
+        "src": "/assets/images/blog2.jpg",
+        "alt": "blog2",
+        "width": 600,
+        "height": 400
       },
-      "web-developer": {
-        "image": {
-          "src": "/assets/images/blog3.jpg",
-          "alt": "blog3"
-        },
-        "title": "How to Become a Web Developer",
-        "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus natus voluptas, eos obcaecati recusandae amet?"
-      }
+      "title": "Become a Web Designer in 10 Days",
+      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus natus voluptas, eos obcaecati recusandae amet?"
+    },
+    "article_4": {
+      "id": "4",
+      "image": {
+        "src": "/assets/images/blog3.jpg",
+        "alt": "blog3",
+        "width": 600,
+        "height": 400
+      },
+      "title": "Debbuging made easy with Web Inspector",
+      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus natus voluptas, eos obcaecati recusandae amet?"
+    },
+    "article_5": {
+      "id": "5",
+      "image": {
+        "src": "/assets/images/port1.jpg",
+        "alt": "port1",
+        "width": 600,
+        "height": 400
+      },
+      "title": "Get started with Web Design and UI Design",
+      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus natus voluptas, eos obcaecati recusandae amet?"
+    },
+    "article_6": {
+      "id": "6",
+      "image": {
+        "src": "/assets/images/port3.jpg",
+        "alt": "port3",
+        "width": 600,
+        "height": 400
+      },
+      "title": "This is what you need to know about Web Design",
+      "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus natus voluptas, eos obcaecati recusandae amet?"
     }
   }
 }

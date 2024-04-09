@@ -1,5 +1,11 @@
 export interface Blog {
-  image: Pick<HTMLImageElement, 'src' | 'alt'>;
+  id: number;
   title: string;
   content: string;
+  image: {
+    src: string;
+    width: number;
+    height: number;
+    alt: string;
+  };
 }

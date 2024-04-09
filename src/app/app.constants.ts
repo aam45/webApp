@@ -4,6 +4,7 @@ export enum APP_ROUTES {
   PORTFOLIO = 'portfolio',
   BLOGS = 'blogs',
   CONTACT = 'contact',
+  BLOGS_DETAILS = 'blogs/details',
   NOT_FOUND = '**',
 }
 

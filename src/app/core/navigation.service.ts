@@ -27,6 +27,12 @@ export class NavigationService {
     this.zone.run(() => this.router.navigate([APP_ROUTES.BLOGS]));
   }
 
+  public blogDetails(id: number): void {
+    this.zone.run(() =>
+      this.router.navigate([APP_ROUTES.BLOGS_DETAILS], { queryParams: { id } })
+    );
+  }
+
   public contact(): void {
     this.zone.run(() => this.router.navigate([APP_ROUTES.CONTACT]));
   }

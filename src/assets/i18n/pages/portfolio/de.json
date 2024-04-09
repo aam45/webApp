@@ -1,9 +1,64 @@
 {
   "portfolio": {
+    "title": "Here is some of my work that I've done in various programming languages.",
     "main-title": {
       "title": "My",
       "subtitle": "Portfolio",
       "backGroundText": "My Work"
+    },
+    "project_1": {
+      "project_title": "Project Source",
+      "description": "My Portfolio",
+      "image": {
+        "url": "/assets/images/port1.jpg",
+        "width": 700,
+        "height": 466
+      }
+    },
+    "project_2": {
+      "project_title": "Project Source",
+      "description": "Project Source",
+      "image": {
+        "url": "/assets/images/port2.jpg",
+        "width": 700,
+        "height": 466
+      }
+    },
+    "project_3": {
+      "project_title": "Here is some of my work that I've done in various programming languages.",
+      "description": "Project Source",
+      "image": {
+        "url": "/assets/images/port3.jpg",
+        "width": 600,
+        "height": 400
+      }
+    },
+    "project_4": {
+      "project_title": "Project Source",
+      "description": "Project Source",
+      "image": {
+        "url": "/assets/images/port4.jpg",
+        "width": 600,
+        "height": 370
+      }
+    },
+    "project_5": {
+      "project_title": "Project Source",
+      "description": "Project Source",
+      "image": {
+        "url": "/assets/images/port5.jpg",
+        "width": 600,
+        "height": 400
+      }
+    },
+    "project_6": {
+      "project_title": "Project Source",
+      "description": "Project Source",
+      "image": {
+        "url": "/assets/images/port7.jpg",
+        "width": 700,
+        "height": 400
+      }
     }
   }
 }

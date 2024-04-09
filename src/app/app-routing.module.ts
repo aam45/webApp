@@ -8,6 +8,7 @@ import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { BlogsComponent } from './pages/blogs/blogs.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { NotFoundComponent } from './pages/empty/not-found.component';
+import { BlogdetailsComponent } from './pages/blogs/details/Blogdetails.component';
 
 const routes: Routes = [
   {
@@ -33,6 +34,10 @@ const routes: Routes = [
   {
     path: APP_ROUTES.CONTACT,
     component: ContactComponent,
+  },
+  {
+    path: APP_ROUTES.BLOGS_DETAILS,
+    component: BlogdetailsComponent,
   },
   { path: '', redirectTo: APP_ROUTES.HOME, pathMatch: 'full' },
   {

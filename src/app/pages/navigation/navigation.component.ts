@@ -51,6 +51,6 @@ export class NavigationComponent implements OnInit {
   private setActive() {
     setTimeout(() => {
       this.selectedTab = this.router.url.replace('/', '');
-    }, 0);
+    }, 100);
   }
 }
