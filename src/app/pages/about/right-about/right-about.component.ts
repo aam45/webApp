@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Card } from './card';
-import { TranslationsService } from '../../../core/translations.service';
+import { TranslationsService } from '../../../core/TransaltionService/translations.service';
 
 @Component({
   selector: 'app-right-about',

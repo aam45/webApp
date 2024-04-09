@@ -1,6 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Portfolio } from '../portfolio';
-import { TranslationsService } from '../../../core/translations.service';
+import { TranslationsService } from '../../../core/TransaltionService/translations.service';
 
 @Component({
   selector: 'app-portfolio-item',

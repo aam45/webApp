@@ -4,7 +4,7 @@ import {
   TRANSLOCO_SCOPE_BLOGS_PROVIDER,
 } from './blogs-scope.transloco';
 import { Blog } from './blog';
-import { TranslationsService } from '../../core/translations.service';
+import { TranslationsService } from '../../core/TransaltionService/translations.service';
 
 @Component({
   selector: 'app-blogs',

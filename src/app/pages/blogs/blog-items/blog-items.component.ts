@@ -1,8 +1,8 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { TranslationsService } from '../../../core/translations.service';
+import { TranslationsService } from '../../../core/TransaltionService/translations.service';
 import { Blog } from '../blog';
 import { Observable, of } from 'rxjs';
-import { NavigationService } from '../../../core/navigation.service';
+import { NavigationService } from '../../../core/NavigationService/navigation.service';
 
 @Component({
   selector: 'app-blog-items',

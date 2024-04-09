@@ -1,6 +1,6 @@
 import { Injectable, NgZone } from '@angular/core';
 import { Router } from '@angular/router';
-import { APP_ROUTES } from '../app.constants';
+import { APP_ROUTES } from '../../app.constants';
 
 @Injectable({
   providedIn: 'root',

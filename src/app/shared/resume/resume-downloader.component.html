@@ -1,5 +1,5 @@
 <ng-container *transloco="let t; read: i18nPath">
-  <div class="btn-con">
+  <div class="btn-con" (click)="downloadFile()" >
     <a class="main-btn" href="">
       <span class="btn-text"> {{ t('cv') }}</span>
       <span class="btn-icon"><i class="fas fa-download"></i></span>

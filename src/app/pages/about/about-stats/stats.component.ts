@@ -1,5 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
-import { TranslationsService } from '../../../core/translations.service';
+import { TranslationsService } from '../../../core/TransaltionService/translations.service';
 import { Stats } from './stats';
 
 @Component({
