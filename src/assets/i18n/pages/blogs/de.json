@@ -7,6 +7,14 @@
     },
     "article_1": {
       "id": "1",
+      "date": "01.01.2020",
+      "author": {
+        "name": "John Doe",
+        "avatar": "/assets/images/port6.jpg"
+      },
+      "date": "01.01.2020",
+      "hashtags": ["#webdesign", "#uidesign"],
+      "tag": "portular",
       "image": {
         "src": "/assets/images/port6.jpg",
         "alt": "port6",
@@ -18,6 +26,13 @@
     },
     "article_2": {
       "id": "2",
+      "date": "01.01.2020",
+      "hashtags": ["#webdesign", "#uidesign"],
+      "tag": "portular",
+      "author": {
+        "name": "John Doe",
+        "avatar": "/assets/images/blog1.jpg"
+      },
       "image": {
         "src": "/assets/images/blog1.jpg",
         "alt": "blog1",
@@ -29,6 +44,13 @@
     },
     "article_3": {
       "id": "3",
+      "date": "01.01.2020",
+      "hashtags": ["#webdesign", "#uidesign"],
+      "tag": "portular",
+      "author": {
+        "name": "John Doe",
+        "avatar": "/assets/images/blog2.jpg"
+      },
       "image": {
         "src": "/assets/images/blog2.jpg",
         "alt": "blog2",
@@ -39,7 +61,14 @@
       "content": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus natus voluptas, eos obcaecati recusandae amet?"
     },
     "article_4": {
+      "date": "01.01.2020",
+      "hashtags": ["#webdesign", "#uidesign"],
+      "tag": "portular",
       "id": "4",
+      "author": {
+        "name": "John Doe",
+        "avatar": "/assets/images/blog3.jpg"
+      },
       "image": {
         "src": "/assets/images/blog3.jpg",
         "alt": "blog3",
@@ -51,6 +80,13 @@
     },
     "article_5": {
       "id": "5",
+      "date": "01.01.2020",
+      "author": {
+        "name": "John Doe",
+        "avatar": "/assets/images/port1.jpg"
+      },
+      "hashtags": ["#webdesign", "#uidesign"],
+      "tag": "portular",
       "image": {
         "src": "/assets/images/port1.jpg",
         "alt": "port1",
@@ -62,6 +98,13 @@
     },
     "article_6": {
       "id": "6",
+      "hashtags": ["#webdesign", "#uidesign"],
+      "tag": "portular",
+      "date": "01.01.2020",
+      "author": {
+        "name": "John Doe",
+        "avatar": "/assets/images/port2.jpg"
+      },
       "image": {
         "src": "/assets/images/port3.jpg",
         "alt": "port3",

@@ -44,6 +44,7 @@ Thumbs.db
 /storybook-static
 /build-storybook.log
 documentation.json
+*.html
 
 
 

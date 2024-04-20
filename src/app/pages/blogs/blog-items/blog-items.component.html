@@ -1,25 +1,35 @@
-<div class="blogs-content">
-  <div class="blogs">
+<!-- blog-card.component.html -->
+<div class="wrapper">
     <ng-container *ngFor="let blog of blogs | async">
-      <div class="blog">
-        <img
-          [attr.height]="blog.image.height"
-          [attr.src]="blog.image.src"
-          [attr.width]="blog.image.width"
-          alt="" />
-        <div class="blog-text">
-          <div class="meta mb-1">
-            <span class="date">Published 5 months ago</span
-            ><span class="time">15 min read</span
-            ><span class="comment"><a href="#">3 comments</a></span>
-          </div>
-          <h4>{{ blog.title }}</h4>
-          <p>
-            {{ blog.content }}
-          </p>
-          <button (click)="goToBlog(blog)">Read more &rarr;</button>
+        <div class="card">
+            <div class="card-banner">
+                <p class="category-tag popular">Popular</p>
+                <img class="banner-img"
+                     [attr.height]="blog.image.height"
+                     [attr.src]="blog.image.src"
+                     [attr.width]="blog.image.width"
+                     alt=""
+                />
+            </div>
+            <div class="card-body">
+                <p class="blog-hashtag">#Horin, #Apij, #skhkdshs</p>
+                <h2 class="blog-title">{{ blog.title }}</h2>
+                <p class="blog-description"> {{ blog.content }}</p>
+
+                <div class="card-profile">
+                    <img class="profile-img"
+                         [attr.height]="blog.image.height"
+                         [attr.src]="blog.author.avatar"
+                         [attr.width]="blog.image.width"
+                         alt=""
+                    />
+                    <div class="card-profile-info">
+                        <h3 class="profile-name">{{ blog.author.name }}</h3>
+                        <p class="profile-followers">{{ blog.date }}</p>
+                    </div>
+                </div>
+                <button class="btn card_btn">Read More</button>
+            </div>
         </div>
-      </div>
     </ng-container>
-  </div>
 </div>
