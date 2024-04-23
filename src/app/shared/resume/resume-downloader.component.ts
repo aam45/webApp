@@ -4,7 +4,7 @@ import {FileDownloadService} from "../../core/Downloader/file-download.service";
 @Component({
   selector: 'app-resume-downloader',
   templateUrl: './resume-downloader.component.html',
-  styleUrls: ['./resume-downloader.component.css'],
+  styleUrls: ['./resume-downloader.component.scss'],
 })
 export class ResumeDownloaderComponent {
   @Input() i18nPath!: string;

@@ -5,7 +5,7 @@ import { TranslationsService } from '../../../core/TransaltionService/translatio
 @Component({
   selector: 'app-right-about',
   templateUrl: './right-about.component.html',
-  styleUrls: ['./right-about.component.css'],
+  styleUrls: ['./right-about.component.scss'],
 })
 export class RightAboutComponent implements OnInit {
   @Input() i18nPath!: string;

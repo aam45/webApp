@@ -9,7 +9,7 @@ import { TranslationsService } from '../../core/TransaltionService/translations.
 @Component({
   selector: 'app-blogs',
   templateUrl: './blogs.component.html',
-  styleUrls: ['./blogs.component.css'],
+  styleUrls: ['./blogs.component.scss'],
   providers: [TRANSLOCO_SCOPE_BLOGS_PROVIDER],
 })
 export class BlogsComponent implements OnInit {

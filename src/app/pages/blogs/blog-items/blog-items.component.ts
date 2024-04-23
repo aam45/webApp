@@ -7,7 +7,7 @@ import { NavigationService } from '../../../core/NavigationService/navigation.se
 @Component({
   selector: 'app-blog-items',
   templateUrl: './blog-items.component.html',
-  styleUrls: ['./blog-items.component.css'],
+  styleUrls: ['./blog-items.component.scss'],
 })
 export class BlogItemsComponent implements OnInit {
   @Input() public i18nPath!: string;

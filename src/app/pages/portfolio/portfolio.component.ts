@@ -7,7 +7,7 @@ import {
 @Component({
   selector: 'app-portfolio',
   templateUrl: './portfolio.component.html',
-  styleUrls: ['./portfolio.component.css'],
+  styleUrls: ['./portfolio.component.scss'],
   providers: [TRANSLOCO_SCOPE_PORTFOLIO_PROVIDER],
 })
 export class PortfolioComponent {

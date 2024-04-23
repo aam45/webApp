@@ -5,7 +5,7 @@ import { TranslationsService } from '../../../core/TransaltionService/translatio
 @Component({
   selector: 'app-portfolio-item',
   templateUrl: './portfolio-item.component.html',
-  styleUrls: ['./portfolio-item.component.css'],
+  styleUrls: ['./portfolio-item.component.scss'],
 })
 export class PortfolioItemComponent implements OnInit {
   @Input() public i18nPath!: string;

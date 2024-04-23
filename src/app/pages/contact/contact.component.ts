@@ -7,7 +7,7 @@ import {
 @Component({
   selector: 'app-contact',
   templateUrl: './contact.component.html',
-  styleUrls: ['./contact.component.css'],
+  styleUrls: ['./contact.component.scss'],
   providers: [TRANSLOCO_SCOPE_CONTACT_PROVIDER],
 })
 export class ContactComponent {

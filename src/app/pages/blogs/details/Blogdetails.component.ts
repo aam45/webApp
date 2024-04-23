@@ -11,7 +11,7 @@ import {
 @Component({
   selector: 'app-details',
   templateUrl: './Blogdetails.component.html',
-  styleUrls: ['./Blogdetails.component.css'],
+  styleUrls: ['./Blogdetails.component.scss'],
   providers: [TRANSLOCO_SCOPE_BLOGS_PROVIDER],
 })
 export class BlogdetailsComponent {

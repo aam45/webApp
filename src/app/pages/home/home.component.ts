@@ -7,7 +7,7 @@ import {
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css'],
+  styleUrls: ['./home.component.scss'],
   providers: [TRANSLOCO_SCOPE_HOME_PROVIDER],
 })
 export class HomeComponent {
