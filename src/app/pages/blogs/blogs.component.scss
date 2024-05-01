@@ -1,0 +1,31 @@
+.container-filter {
+  display: flex;
+  flex-direction: column; /* Change to column layout for smaller screens */
+  justify-content: center; /* Center items vertically for smaller screens */
+  align-items: stretch; /* Stretch items to use full width */
+  margin: 3rem -0.675rem 2rem 1rem
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .container-filter {
+    flex-direction: row; /* Revert to row layout for wider screens */
+    justify-content: space-between; /* Space items as originally intended */
+    align-items: flex-end; /* Align items to the end */
+    margin: 3rem -0.675rem 2rem 1rem
+
+
+  }
+
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .container-filter {
+    flex-direction: row; /* Revert to row layout for wider screens */
+    justify-content: space-between; /* Space items as originally intended */
+    align-items: flex-end; /* Align items to the end */
+    margin: 3rem -0.675rem 2rem 1rem
+  }
+}

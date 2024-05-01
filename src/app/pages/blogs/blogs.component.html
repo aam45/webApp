@@ -1,4 +1,9 @@
 <section class="container active" id="blogs">
   <app-main-title [i18nPath]="i18nPath"></app-main-title>
+
+  <div class="container-filter">
+    <app-content-filter></app-content-filter>
+    <app-searchbar></app-searchbar>
+  </div>
   <app-blog-items [i18nPath]="i18nPath"></app-blog-items>
 </section>
