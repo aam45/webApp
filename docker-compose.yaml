@@ -1,0 +1,16 @@
+﻿services:
+  portfolio-amApp:
+    container_name: portfolio-amAppContainer
+    build: .
+    image: portfolio-amApp:v1
+    ports:
+      - 80: 80
+    expose:
+      - 80
+    networks:
+      internalnet
+
+  networks:
+    internalnet:
+      driver: bridge
+
