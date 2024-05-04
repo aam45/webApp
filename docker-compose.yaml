@@ -2,7 +2,7 @@
   portfolio-amapp:
     container_name: portfolio-amAppContainer
     build: .
-    image: portfolio-amapp:v1
+    image: portfolio-amapp:latest
     ports:
       - "80:80"  # Ensure no spaces in the port mapping
     expose:
