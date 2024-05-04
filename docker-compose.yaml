@@ -1,16 +1,15 @@
 ﻿services:
-  portfolio-amApp:
+  portfolio-amapp:
     container_name: portfolio-amAppContainer
     build: .
-    image: portfolio-amApp:v1
+    image: portfolio-amapp:v1
     ports:
-      - 80: 80
+      - "80:80"  # Ensure no spaces in the port mapping
     expose:
-      - 80
+      - "80"  # Not strictly necessary if you're already mapping ports
     networks:
-      internalnet
+      - internalnet
 
-  networks:
-    internalnet:
-      driver: bridge
-
+networks:
+  internalnet:
+    driver: bridge
